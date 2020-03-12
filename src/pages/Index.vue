@@ -116,15 +116,49 @@ a[href] {
   font-family: 'Raleway', 'Helvetica Neue', sans-serif;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 300px) {
+  .page h1 {
+    font-size: 100%;
+  }
+
+  .page p {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-width: 301px) {
+  .page p {
+    font-size: 60%;
+  }
+
+  .page h1 {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (min-width: 501px) {
+  .page p {
+    font-size: 70%;
+  }
+
+  .page h1 {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
   .page p {
     font-size: 80%;
+  }
+
+  .page h1 {
+    font-size: 200%;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .page p {
-    font-size: 120%;
+    font-size: 110%;
   }
 }
 

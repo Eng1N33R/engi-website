@@ -14,12 +14,23 @@ svg.corner {
   right: 0;
   bottom: 0;
   cursor: pointer;
-  width: 200px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
+  svg.corner {
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 501px) {
   svg.corner {
     width: 150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  svg.corner {
+    width: 200px;
   }
 }
 </style>
