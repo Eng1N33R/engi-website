@@ -48,7 +48,7 @@
             <p>If you'd like to strike up a conversation, email me at <b>me@engi.io</b>.</p>
             <p>If you have a business inquiry, I'd appreciate it if you messaged me at <b>business@engi.io</b>.</p>
             <div style="margin-top: 1em;"></div>
-            <p><a href="/CV.pdf">CV</a> <Dot/> <a href="https://github.com/Eng1N33R">GitHub</a></p>
+            <p><a href="https://blog.engi.io">Blog</a> <Dot/> <a href="/CV.pdf">CV</a> <Dot/> <a href="https://github.com/Eng1N33R">GitHub</a></p>
           </div>
           <Corner @click.native="moveFirst" up />
         </div>
