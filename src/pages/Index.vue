@@ -3,7 +3,7 @@
     <div class="fullpage-container">
       <div class="fullpage-wp" v-fullpage="options" ref="fullpage">
         <div class="page" id="page1">
-          <g-image id="logo" alt="engin33r" src="~/logo.svg" />
+          <Logo id="logo" />
           <Corner @click.native="moveNext" />
         </div>
         <div class="page" id="page2">
@@ -60,11 +60,13 @@
 <script>
 import Dot from '~/components/Dot.vue'
 import Corner from '~/components/Corner.vue'
+import Logo from '~/logo.svg'
 
 export default {
   components: {
     Dot,
     Corner,
+    Logo,
   },
   data: () => ({
     options: {
@@ -210,7 +212,7 @@ a[href] {
   padding: 0 15%;
 }
 
-#page1 > img#logo {
+#page1 > #logo {
   flex: 1;
   height: 80%;
 }
