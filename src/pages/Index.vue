@@ -9,9 +9,9 @@
         <div class="page" id="page2">
           <div class="center-text">
             <h1>Hello!</h1>
-            <p>My name is Ilya Gavrikov, but I go by EngiN33R online. I'm a software engineer, as well as a language and linguistics enthusiast.</p>
+            <p>My name is <span class="highlight">Ilya Gavrikov</span>, but I go by <span class="highlight">EngiN33R</span> online. I'm a software engineer, as well as a language and linguistics enthusiast.</p>
             <div style="margin-top: 1em;"></div>
-            <p>I live to learn and to improve myself, always preferring taking on difficult challenges to comfortably coasting through the familiar.</p>
+            <p>I live to learn and to improve myself, always enjoying taking on difficult challenges instead of comfortably coasting through the familiar.</p>
           </div>
           <Corner @click.native="moveNext" />
         </div>
@@ -166,6 +166,10 @@ a[href] {
 
 .page h1, .page p {
   margin: 0;
+}
+
+span.highlight {
+  color: #fd6104;
 }
 
 #page1 {
